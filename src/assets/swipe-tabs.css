@@ -1,0 +1,72 @@
+.swipe-tabs {
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.swipe-tabs__tabs {
+  display: flex;
+  overflow: auto;
+  grid-area: tabs;
+}
+
+.swipe-tabs__content {
+  overflow: hidden;
+  grid-area: content;
+  position: relative;
+}
+
+.swipe-tabs__content-inner {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  will-change: transform;
+}
+
+.swipe-tabs__content-item {
+  flex: 0 0 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.swipe-tabs--top {
+  grid-template-areas:
+    "tabs"
+    "content";
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+}
+
+.swipe-tabs--bottom {
+  grid-template-areas:
+    "content"
+    "tabs";
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr;
+}
+
+.swipe-tabs--left {
+  grid-template-areas: "tabs content";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+}
+
+.swipe-tabs--right {
+  grid-template-areas: "content tabs";
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+}
+
+.tabs--top,
+.tabs--bottom {
+  flex-direction: row;
+}
+
+.tabs--left,
+.tabs--right {
+  flex-direction: column;
+}
+
+.swipe-tabs__tabs-item {
+  cursor: pointer;
+}
