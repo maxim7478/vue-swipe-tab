@@ -11,6 +11,14 @@
     "dist/**/*",
     "src/assets/theme/*.css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxim7478/vue-swipe-tab"
+  },
+  "bugs": {
+    "url": "https://github.com/maxim7478/vue-swipe-tab/issues"
+  },
+  "homepage": "https://github.com/maxim7478/vue-swipe-tab#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build && vue-tsc",

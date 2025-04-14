@@ -1,4 +1,4 @@
-# 📱 SwipeTabs
+# 📱 Vue Swipe Tabs
 
 A Vue 3 component for swiping between tabs with custom content support, smooth animations, and flexible tab positioning.
 
@@ -94,7 +94,3 @@ You can use it as a starting point to override or extend the component’s style
   const refActivePosition = ref('top')
 </script>
 ```
-
-## 📄 License
-
-[MIT](LICENSE)
