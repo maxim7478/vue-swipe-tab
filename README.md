@@ -58,8 +58,8 @@ You can customize the appearance of the component using your own CSS.
 A base example of the default styles can be found here:
 
 ```
-vue-swipe-tab/vue-swipe-tab.css - important
-vue-swipe-tabs/src/assets/theme/index.css - for customizing
+@joen95/vue-swipe-tab/dist/vue-swipe-tab.css - important
+@joen95/vue-swipe-tab/src/assets/theme/index.css - for customizing
 ```
 
 You can use it as a starting point to override or extend the component’s styles.
