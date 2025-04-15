@@ -1,6 +1,6 @@
 {
   "name": "@joen95/vue-swipe-tab",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "A Vue component for swipeable tabs",
   "main": "./dist/index.js",
