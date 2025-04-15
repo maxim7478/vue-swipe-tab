@@ -15,9 +15,9 @@ A Vue 3 component for swiping between tabs with custom content support, smooth a
 ## 🚀 Installation
 
 ```bash
-npm install @your-namespace/swipe-tabs
+npm install @joen95/vue-swipe-tab
 # or
-yarn add @your-namespace/swipe-tabs
+yarn add @joen95/vue-swipe-tab
 ```
 
 ## ⚙️ Props
@@ -58,7 +58,7 @@ You can customize the appearance of the component using your own CSS.
 A base example of the default styles can be found here:
 
 ```
-vue-swipe-tab.css/vue-swipe-tab.css - important
+vue-swipe-tab/vue-swipe-tab.css - important
 vue-swipe-tabs/src/assets/theme/index.css - for customizing
 ```
 
